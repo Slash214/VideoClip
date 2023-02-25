@@ -1,5 +1,4 @@
-
-中文|English
+[中文](./README_zh.MD) | [English](./README.MD)
 
 # VideoClip
 
