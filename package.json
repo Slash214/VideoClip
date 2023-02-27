@@ -11,6 +11,8 @@
   "dependencies": {
     "canvas": "^2.11.0",
     "ffcreator": "^6.8.2",
+    "ffcreatorlite": "^2.3.11",
+    "fs-extra": "^11.1.0",
     "gl": "^6.0.2"
   }
 }
