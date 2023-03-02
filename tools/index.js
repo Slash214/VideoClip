@@ -5,8 +5,10 @@
 
 
 const path = require('path')
-const { FFAlbum, FFAudio, FFCreator, FFImage, FFText, FFScene } = require('ffcreator')
+const { FFAlbum, FFAudio, FFCreator, FFImage, FFText, FFScene, FFVideo } = require('ffcreator')
 const { width, height, fps } = require('../conf')
+
+// const pathReslove = dir => path.join(__dirname, dir)
 
 // 入口
 const Compos = new FFCreator({
@@ -26,7 +28,10 @@ const BackgroundMusic = new FFAudio({
 	fadeIn: 4,
 	fadeOut: 4
 })
+// 制作视频背景的就不添加背景音乐了
 Compos.addAudio(BackgroundMusic)
+
+
 
 
 const list = Array.from({ length: 20 }, (v, i) => (

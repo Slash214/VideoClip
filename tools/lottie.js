@@ -1,6 +1,7 @@
 /**
  * @author 爱呵呵
- * @description lottie 动画
+ * @description lottie 动画  支持AE 导出的JSON
+ * 还在测试，目前发现很多ae效果都不支持！
  */
 
 const path = require("path");

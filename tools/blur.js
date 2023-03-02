@@ -1,3 +1,8 @@
+/**
+ * @author 爱呵呵
+ * @description 模糊背景效果的图册导出
+ */
+
 const path = require('path')
 const { FFAlbum, FFAudio, FFCreator, FFImage, FFText, FFScene } = require('ffcreator')
 const { width, height, fps } = require('../conf')
