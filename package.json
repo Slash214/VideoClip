@@ -1,7 +1,7 @@
 {
   "name": "videoclip",
   "version": "1.0.0",
-  "description": "",
+  "description": "一个基于ffcreator的nodejs视频处理工具库文件，支持视频相册，AE模板相册，Lottie动画，文字动画，图片动画",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
